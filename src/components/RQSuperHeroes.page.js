@@ -7,7 +7,7 @@ const fetchData = () =>{
 
 export const RQSuperHeroesPage = () => {
   const {isLoading, data, isError, error, isFetching} = useQuery('super-heroes', fetchData,
-   { refetchInterval: 2000,})
+   { refetchInterval: 2000, refetchIntervalInBackground: true})
 
   console.log({isLoading, isFetching})
 
