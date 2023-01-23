@@ -1,9 +1,9 @@
 import axios from "axios"
 import { useQuery } from "react-query"
 
-const fetchSuperHero = heroID => {
-    return axios.get(`http://localhost:4000/superheroes/${heroID}`)
+const fetchSuperHero = heroId => {
+    return axios.get(`http://localhost:4000/superheroes/${heroId}`)
 }
-export const useSuperHeroData = (heroID) => {
-    return useQuery(['super-hero', heroID], () => fetchSuperHero(heroID))
+export const useSuperHeroData = (heroId) => {
+    return useQuery(['super-hero', heroId], () => fetchSuperHero(heroId))
 }

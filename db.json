@@ -1,24 +1,37 @@
 {
-    "superheroes": [
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Batman",
+      "alterEgo": "Bruce Wayne"
+    },
+    {
+      "id": 2,
+      "name": "Superman",
+      "alterEgo": "Clark Kent"
+    },
+    {
+      "id": 3,
+      "name": "Wonder Woman 1",
+      "alterEgo": "Prince Diana"
+    },
+    {
+      "id": 4,
+      "name": "Iron Man",
+      "alterEgo": "Tony Stark"
+    }
+  ],
+  "friends" : [
     {
         "id": 1,
-        "name": "Batman",
-        "alterEgo": "Bruce Wayne"
+        "name": "Saeed"
     },
     {
         "id": 2,
-        "name": "Superman",
-        "alterEgo": "Clark Kent"
-    },
-    {
+        "name": "Zaki"
+    },{
         "id": 3,
-        "name": "Wonder Woman 1",
-        "alterEgo": "Prince Diana"
-    },
-    {
-        "id": 4,
-        "name": "Iron Man",
-        "alterEgo": "Tony Stark"
+        "name": "Jalal"
     }
-]
+  ]
 }
