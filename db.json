@@ -21,17 +21,34 @@
       "alterEgo": "Tony Stark"
     }
   ],
-  "friends" : [
+  "friends": [
     {
-        "id": 1,
-        "name": "Saeed"
+      "id": 1,
+      "name": "Saeed"
     },
     {
-        "id": 2,
-        "name": "Zaki"
-    },{
-        "id": 3,
-        "name": "Jalal"
+      "id": 2,
+      "name": "Zaki"
+    },
+    {
+      "id": 3,
+      "name": "Jalal"
+    }
+  ],
+  "users": [
+    {
+      "id": "qaiserfan2@gmail.com",
+      "channelId": "codevolution"
+    }
+  ],
+  "channels": [
+    {
+      "id": "codevolution",
+      "courses": [
+        "react",
+        "angular",
+        "vue"
+      ]
     }
   ]
 }
