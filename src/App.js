@@ -9,6 +9,7 @@ import { RQSuperHeroPage } from './components/RQSuperHero.Page';
 import { ParallelQueriesPage } from './components/ParallelQueries.page';
 import { DynamicParallelPage } from './components/DynamicParallel.Page';
 import { DependantQueriesPage } from './components/DependantQueries.Page';
+import { PaginatedQueriesPage } from './components/PaginatedQueries.Page';
 
 const queryClient = new QueryClient()
 
@@ -32,6 +33,7 @@ function App() {
           </nav>
           <Routes>
             <Route path='/rq-super-heroes/:heroId' element={<RQSuperHeroPage />}></Route>
+            <Route path='/rq-paginated' element={<PaginatedQueriesPage />}></Route>
             <Route path='/rq-dependant' element={<DependantQueriesPage email='qaiserfan2@gmail.com' />}></Route>
             <Route path='/rq-dynamic-parallel' element={<DynamicParallelPage heroIds={[1, 4]} />}></Route>
             <Route path='/rq-parallel' element={<ParallelQueriesPage />}></Route>

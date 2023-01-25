@@ -21,34 +21,51 @@
       "alterEgo": "Tony Stark"
     }
   ],
-  "friends": [
+  "friends" : [
+    {
+        "id": 1,
+        "name": "Saeed"
+    },
+    {
+        "id": 2,
+        "name": "Zaki"
+    },{
+        "id": 3,
+        "name": "Jalal"
+    }
+  ],
+  "colors" : [
     {
       "id": 1,
-      "name": "Saeed"
+      "label": "red"
     },
     {
       "id": 2,
-      "name": "Zaki"
+      "label": "blue"
     },
     {
       "id": 3,
-      "name": "Jalal"
-    }
-  ],
-  "users": [
+      "label": "green"
+    },
     {
-      "id": "qaiserfan2@gmail.com",
-      "channelId": "codevolution"
-    }
-  ],
-  "channels": [
+      "id": 4,
+      "label": "yellow"
+    },
     {
-      "id": "codevolution",
-      "courses": [
-        "react",
-        "angular",
-        "vue"
-      ]
+      "id": 5,
+      "label": "purple"
+    },
+    {
+      "id": 6,
+      "label": "pink"
+    },
+    {
+      "id": 7,
+      "label": "violet"
+    },
+    {
+      "id": 8,
+      "label": "white"
     }
   ]
 }
